@@ -1,0 +1,62 @@
+.logotiposlack{
+    width: 100px;
+    height: 35px;
+    @media all and (min-width:780px){
+        width:210px ;
+        height: 80px;
+    }
+}
+.navegador{
+    width: 40px;
+    height: 40px;
+    @media all and (min-width:780px){
+    display: none;
+    }
+}
+.header{
+    background-color: $backviole;
+    color: white;
+    padding-bottom: 100px;
+
+   &_nav{
+    @include dysplayElementCEnter();
+
+    &-ul1{
+        display: none;
+
+         @media all and (min-width:780px) { 
+            display: flex;
+            justify-content:first baseline;
+            align-self:center;
+            padding: 10px;
+            gap: 20px;
+    }}
+
+    &-ul2{
+        display: none;
+        
+        @media all and (min-width:780px){
+            display: flex;
+            justify-content:first baseline;
+            align-self:center;
+            padding: 10px;
+            gap: 20px;
+
+            & button{
+                padding: 10px;
+            }
+        }
+    }
+
+
+}
+}
+.botonmorado{
+    background-color: $backviole;
+    color: white;
+    border: 1px solid white;
+}
+
+   
+
+

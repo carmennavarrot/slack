@@ -1,0 +1,106 @@
+.header{
+  &_section{
+  
+   & .circulo1{
+    background: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    position: absolute;
+    top: 36.5%;
+    left: 6%;
+    @media all and ((min-width:900px) and (min-width:1024px)){
+      position: absolute;
+    top: 18%;
+    left:50%;
+    }
+
+   }
+   & .circulo2{
+    background: yellow;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    position: absolute;
+    top: 36.5%;
+    left:9%;
+    @media all and ((min-width:900px) and (min-width:1024px)){
+      position: absolute;
+    top: 18%;
+    left:51%;
+    }
+
+   }
+   & .circulo3{
+    background: green;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    position: absolute;
+    top: 36.5%;
+    left:12%;
+    @media all and ((min-width:900px) and (min-width:1024px)){
+      position: absolute;
+    top: 18%;
+    left:52%;
+    }
+
+   }
+
+
+
+   & .emoji{
+   & .emoticono{
+      position: absolute;
+      top: 35%;
+      right: 50%;
+      @media all and ((min-width:900px) and (min-width:1024px)){
+        position: absolute;
+       top: 16%;
+       right: 30%;}
+       
+              }
+    & .bombilla{
+      position: absolute;
+      top: 45%;
+      right: 4.5%;
+      @media all and (min-width:780px){
+      position: absolute;
+      top: 30%;
+      right: 2%;
+  }
+  
+    }
+    & .celebracion{
+      position: absolute;
+      top: 45%;
+      right: 90%;
+      @media all and (min-width:780px){
+          position: absolute;
+          top: 220px;
+          right: 48%;
+      }
+  
+  
+    }
+  & .ojos{
+    position: absolute;
+    top: 60%;
+    right: 15%;
+      
+      @media all and (min-width:780px){
+          position: absolute;
+          top: 310px;
+          right: 15%;
+      }
+    }
+  }
+    
+  }
+}
+  
+  
+ 

@@ -1,0 +1,10 @@
+@mixin dysplayElementCEnter(){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin dysplayColum(){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

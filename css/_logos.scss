@@ -1,0 +1,50 @@
+.main{
+    &_empresas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center; 
+        background-color: $backbeige;
+      
+        @media all and (min-width:780px){
+        
+        flex-direction: column;
+        justify-content : center;
+        align-items : center;
+        
+    }
+    & img{
+        width: 50px;
+    }
+
+    }
+    &_articulos{
+      @include dysplayColum();
+      background-color: $backbeige;
+    &-uno{
+        @media all and (min-width:780px) {
+            @include dysplayElementCEnter();
+        } 
+        }
+    &-dos{
+        @media all and (min-width:780px) {
+            @include dysplayElementCEnter();
+            flex-direction: row-reverse
+        } 
+        & img{
+           display: flex;
+           justify-content: end;
+        }
+    }
+    &-tres{
+        @media all and (min-width:780px) {
+            @include dysplayElementCEnter();
+        } 
+
+    }
+    }
+    }
+
+
+
